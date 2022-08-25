@@ -1,3 +1,4 @@
-module.exports = function reverseString(string) {
-  // Your code here
-};
+const reverseString = string => (string.split('').reverse().join(''))
+
+// reverseString(4)
+module.exports = reverseString

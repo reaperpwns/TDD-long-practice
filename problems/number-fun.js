@@ -1,9 +1,13 @@
-function returnsThree() {
-  // Your code here
+function returnsThree(n) {
+  return n === 3
 }
 
+
 function reciprocal(n) {
-  // Your code here
+  if (1 / n) {
+    return true
+  }
+  return false
 }
 
 module.exports = {
