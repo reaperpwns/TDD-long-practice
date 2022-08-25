@@ -18,4 +18,9 @@ describe('reciprocal of number', function() {
         let boolean1 = reciprocal(4)
         expect(boolean1).to.be.true
     })
+    it('should only take arguments between 1 and 1000000', function() {
+        if (-3 < 1 || -3 > 1000000) {
+        expect(() => reciprocal(-3)).to.throw(TypeError)
+        }
+    })
 })

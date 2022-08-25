@@ -4,10 +4,7 @@ function returnsThree(n) {
 
 
 function reciprocal(n) {
-  if (1 / n) {
-    return true
-  }
-  return false
+  return 1 / n
 }
 
 module.exports = {
